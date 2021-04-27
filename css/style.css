@@ -1,0 +1,278 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ */
+ html {
+  scroll-behavior: smooth;
+}
+ body, * {
+  font-family: Montserrat;
+}
+.clearBoth{
+  clear: both;;
+}
+.onlyMob{
+  display: none !important;
+}
+.yellowstd{
+  color: #FEBC29 !important;
+}
+.primaryBackground{
+  background-color: var(--primaryBG);
+}
+.btnTransparent {
+  color: black !important;
+  background-color: #FEBC29;
+  border: 1px solid rgba(86,119,186,.5);
+  font-size: 1em !important;
+  opacity: 1 !important;
+  height: 53px;
+  padding: 00px 53px !important;
+  line-height: 53px !important;
+  /* background: transparent; */
+  /* color: white !important; */
+  border: 1px solid #FEBC29;
+  background-color: 5677BA;
+}
+.btnTransparent:hover {
+  background-color: #5677BA !important;
+  border: 1px solid black;
+  font-size: 1.1em !important;
+  box-shadow: 5px 5px 5px #3333;
+  color: white   !important;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 100vh;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 80%;
+  margin: auto;
+  margin-top: 4%;
+}
+/* navigation */
+img.navLogo {
+  width: 229px;
+}
+
+
+/* banner */
+
+
+div#index-banner {
+  background-color: var(--primaryBG_3);
+  height: 80vh;
+}
+.bannerDesc {
+  text-align: left;
+  font-size: 16px;
+  line-height: 21px;
+  width: 60% !important;
+}
+a#banner-launch {
+  margin-right: 14px;
+}
+.tranparentBGFull {
+  /* background-color: var(--primaryBG_3) !important; */
+  background-color: rgba(0,0,0,.7) !important;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+#webcoderskull {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 04%;
+  left: 10%;
+}
+.btnbannerGrp{
+  margin-top: 50px;
+}
+
+/* second section */
+#secondSectionArea {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0px;
+  left: 10%;
+}
+div#secondContainer {
+  width: 100%;
+  /* margin: auto !important; */
+  padding-right: 0px !important;
+  padding-top: 31px;
+  height: 100vh;
+  position: relative;
+} 
+.boldStrokeWord {
+  font-size: 15vw;
+  font-weight: 900;
+  color: #141C24;
+  text-shadow: 0px 0px 14px #febc29;
+  -webkit-text-stroke-color: #FEBC29 !important;
+  -webkit-text-stroke: 11px #fff;
+  font-family: "Montserrat script=latin rev=2";
+  letter-spacing: -23px;
+  width: auto;
+  float: left;
+}
+.boldStrokeSub {
+  width: auto;
+  float: left;
+}
+.boldStrokeWord span {
+  color: #141C24;
+  -webkit-animation: blink linear infinite 2s;
+  animation: blink linear infinite 2s;
+}
+.boldStrokeSub {
+  width: auto;
+  float: left;
+  /* color: #5677BA; */
+  color:white;
+  font-size: 6vw;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 146px;
+  margin-left: 23px;
+}
+.secondSectionPara_p {
+  color: white;
+  line-height: 22px;
+}
+.secondSectionPara {
+  width: 59%;
+}
+a#second-launch {
+  background: transparent !important;
+  color: rgba(254,188,41,1) !important;
+  border: 1px solid rgba(254,188,41,1);
+  margin: 23px 0px 23px 3px;
+}
+a#second-launch:hover{
+  background-color: rgba(254,188,41,1) !important;
+  color : black !important;
+  font-size: inherit !important;
+  font-weight: 600 !important;
+}
+
+/* third section */
+.thirdContainer{
+  height: 100vh;
+  position: relative
+}
+div#thirdContainer {
+  width: 100%;
+  /* margin: auto; */
+  /* padding-right: 20%; */
+  /* padding-top: 20px; */
+  overflow: hidden;
+  padding-left: 10%;
+  background: rgba(16, 24, 32, .8);
+  box-sizing: border-box;
+  background: black;
+  /* padding-right: 21% !important; */
+}
+.eachThirdSection {
+  margin-bottom: 15px;
+} 
+.thirdHeading {
+  font-size: 3vw;
+  color: white;
+  /* color:#5677BA; */
+  margin-bottom: 25px;
+  /* font-weight: 900; */
+}
+.thirdSectionDescWrap {
+  width: 70%;
+  margin-left: 20%;
+  display: flex;
+  gap: 28px;
+}
+.thirdSectionDescNum {
+  font-size: 3vw;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0px 0px 10px white;
+  -webkit-text-stroke-color: white !important;
+  -webkit-text-stroke: 3px #fff;
+  font-family: "Montserrat script=latin rev=2";
+  letter-spacing: -23px;
+  width: auto;
+  float: left;
+  opacity: .2;
+}
+.thirdSectionDescP {
+  color: white;
+  padding-left: 49px;
+}
+.thordSectionBtnDiv{
+  text-align: center;
+  width: 87%;;
+}
+.eachThirdSectionBG {
+  /* background: rgba(16, 24, 32, .8); */
+  width: 90%;
+  height: 100%;
+  /* z-index: 4999; */
+  position: absolute;
+  padding-top: 50px;;
+}
+.horizondalLine{
+  height: 2px;
+  width: 100%;
+  border-bottom: 1px solid rgba(255,255,255,.4);
+}
+.scrollDownIcon_3{
+  left: 43% !important;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 6%;
+  }
+  #index-banner .section {
+    top: 0%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .onlyMob{
+    display: inline-block !important;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
