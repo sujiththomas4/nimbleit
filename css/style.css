@@ -175,7 +175,9 @@ a#second-launch:hover{
   font-size: inherit !important;
   font-weight: 600 !important;
 }
-
+.secondSectionPara_2{
+  margin: 0px !important;
+}
 /* third section */
 .thirdContainer{
   height: 100vh;
@@ -247,6 +249,159 @@ div#thirdContainer {
   left: 43% !important;
 }
 
+/* fourth section */
+#fourthSection {
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 38px;
+  background: #101820;
+  height: 100vh;
+  position: relative;
+  /* padding-top: 50px; */
+} 
+.BoldHeader_4 {
+  text-align: center;
+}
+.boldStrokeWord_4 {
+  text-shadow: none !important;
+  -webkit-text-stroke-color: white !important;
+  float: none;
+  font-size: 10vw;
+  letter-spacing: -12px;
+}
+.secondSectionPara_p_4 {
+  margin-top: 20px;;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.secondSectionPara {
+  margin: auto;
+  width: 76%;
+  /* margin-bottom: 10px !important; */
+}
+a#fourth-launch {
+  background: transparent;
+  color: white !important;
+}
+a#fourth-launch:hover {
+  background-color: #FEBC29 !important;
+  color: black !important;
+}
+.scrollDownIcon_4{
+  left: 49% !important;
+}
+.fourthSection_abs{
+  position: absolute;
+  top: 0px;
+  left: 10%;
+  width:80%;
+  height: 100%;
+  padding-top: 50px;
+}
+
+/* fifth section */
+.fifthSection{
+  height: 100vh;
+  position: relative;
+  background: black;
+  overflow: hidden;
+}
+.fifthSection_abs {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  left: 10%;
+  width: 90%;
+  color: white;
+  padding-top: 50px;
+}
+.fifthSection_1_head {
+  color: #FEBC29;
+  font-size: 3vw;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.lefifthSection_1_left {
+  width: 50%;
+  text-align: left;
+  margin-bottom: 48px;
+}
+.lefifthSection_1_right {
+  width: 50%;
+  text-align: right;
+  margin-left: 40%;
+
+}
+p.fifthSection_1_p {
+  line-height: 19px;
+}
+
+
+
+/* footer */
+.footer {
+  background: #101820;
+  padding: 0 0 .5rem 0;
+  position: relative;
+  z-index: 0;
+}
+.footer-logo {
+  text-align: center;
+}
+.footer--info svg {
+  height: 30px;
+  margin: 0 15px;
+  opacity: 0.6;
+  fill: #fff;
+  -webkit-transition: all, 0.4s ease;
+  transition: all, 0.4s ease;
+  cursor: pointer;
+}
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+.footer--info {
+  font-size: 12px;
+  color: #333a41;text-align: center;
+}
+.text-right {
+  text-align: right !important;
+}
+.footer_a{
+  color : #FEBC29 !important
+}
+span.changelanguage {
+  text-transform: uppercase;
+  color: white;
+  margin-right: 10px;
+}
+.footer--info svg:hover {
+  color: white;
+  fill: #5975b8;
+}
+#footer_container {
+  width: 80% !important;
+  margin: auto !important;
+  padding: 0px !important;
+  max-width: 80%;
+  }
+  .sixthSection {
+    height: 70vh;
+    background-size: contain;
+    background-position: center;
+}
+.sixthSection_title {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 200px;
+  margin-bottom: 50px;
+  font-size: 3vw;
+  font-weight: 900;
+  overflow: hidden;
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
